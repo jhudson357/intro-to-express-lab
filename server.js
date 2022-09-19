@@ -5,6 +5,7 @@ import express from 'express'
 const app = express()
 
 // configure the app (app.set)
+app.set('view engine', 'ejs')
 
 // mount middleware (app.use)
 
