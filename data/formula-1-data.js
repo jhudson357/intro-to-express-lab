@@ -1,4 +1,4 @@
-const formula1 = [
+const formula1Drivers = [
   {name: 'Max Verstappen', points: 335, winIn2022: true},
   {name: 'Charles Leclerc', points: 219, winIn2022: true},
   {name: 'Sergio Perez', points: 210, winIn2022: true},
@@ -22,5 +22,5 @@ const formula1 = [
 ]
 
 export {
-  formula1
+  formula1Drivers
 }

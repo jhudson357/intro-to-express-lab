@@ -7,6 +7,14 @@
   <title>Formula 1</title>
 </head>
 <body>
-  
+  <h1>Formual 1 Drivers</h1>
+  <ol>
+    <% formula1Drivers.forEach(driver => { %>
+      <li>
+        <%= driver.name %> has <%= driver.points %> points.
+        He has <%= driver.winIn2022 ? 'won' : 'not won' %> in 2022.
+      </li>
+    <% }) %> 
+  </ol>
 </body>
 </html>
