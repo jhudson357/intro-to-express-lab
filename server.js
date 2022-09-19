@@ -12,6 +12,10 @@ app.set('view engine', 'ejs')
 
 // mount routes
 
+app.get('/', function(req, res) {
+  res.redirect('/formula1')
+})
+
 app.get('/home', function(req, res) {
   res.render('home')
 })
