@@ -17,7 +17,7 @@ const formula1Drivers = [
   {name: 'Yuki Tsunoda', points: 11, winIn2022: false},
   {name: 'Zhou Guanyu', points: 6, winIn2022: false},
   {name: 'Lance Stroll', points: 5, winIn2022: false},
-  {name: 'Alex ALbon', points: 4, winIn2022: false},
+  {name: 'Alex Albon', points: 4, winIn2022: false},
   {name: 'Nicholas Latifi', points: 0, winIn2022: false},
 ]
 
