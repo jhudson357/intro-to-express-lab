@@ -9,6 +9,7 @@ const app = express()
 app.set('view engine', 'ejs')
 
 // mount middleware (app.use)
+app.use(express.static('public'))   // point to public directory w stylesheet
 
 // mount routes
 
